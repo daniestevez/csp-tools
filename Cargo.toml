@@ -1,0 +1,25 @@
+[package]
+name = "csp-tools"
+version = "0.1.0"
+edition = "2024"
+authors = ["Daniel Estevez <daniel@destevez.net>"]
+description = "Cubesat Space Protocol tools"
+license = "MIT OR Apache-2.0"
+homepage = "https://github.com/daniestevez/csp-tools/"
+repository = "https://github.com/daniestevez/csp-tools/"
+keywords = ["csp", "cubesat", "rdp", "satellite", "network", "pcap", "wireshark"]
+categories = ["aerospace::space-protocols", "command-line-utilities", "network-programming", ]
+
+[dependencies]
+anyhow = "1"
+bandwidth = "0.3"
+clap = { version = "4.5", features = ["derive"] }
+console = "0.16.1"
+crc = "3.3"
+deku = "0.20"
+human-bandwidth = "0.1.4"
+humantime = "2.3"
+log = "0.4"
+pcap-file = "2"
+socketcan = "3.5"
+zmq = "0.10"
