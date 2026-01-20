@@ -7,7 +7,7 @@ description = "Cubesat Space Protocol tools"
 license = "MIT OR Apache-2.0"
 homepage = "https://github.com/daniestevez/csp-tools/"
 repository = "https://github.com/daniestevez/csp-tools/"
-keywords = ["csp", "cubesat", "rdp", "satellite", "network", "pcap", "wireshark"]
+keywords = ["csp", "cubesat", "rdp", "network", "wireshark"]
 categories = ["aerospace::space-protocols", "command-line-utilities", "network-programming", ]
 
 [dependencies]
