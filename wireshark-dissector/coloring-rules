@@ -1,0 +1,6 @@
+# This file was created by Wireshark. Edit with care.
+@CSP ping@csp.destination_port == 1 || csp.source_port == 1@[64764,57568,65535][4626,10023,11822]
+@RDP SYN@csp.rdp.syn_flag == 1@[41120,41120,41120][4626,10023,11822]
+@RDP RST@csp.rdp.rst_flag == 1@[42148,0,0][65535,64764,40092]
+@RDP analysis@csp.rdp.analysis@[4626,10023,11822][63479,34695,34695]
+@RDP EAK@csp.rdp.eak_flag == 1@[21845,21845,65535][63479,34695,34695]
