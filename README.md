@@ -30,6 +30,11 @@ just install-wireshark
 
 Running this requires [just](github.com/casey/just).
 
+There are also some recommended Wireshark coloring rules in
+[wireshark-dissector/coloring-rules](./wireshark-dissector/coloring-rules). These
+can be imported into Wireshark by going to "View > Coloring Rules..." and
+clicking on "Import...".
+
 ## License
 
 Licensed under either of
