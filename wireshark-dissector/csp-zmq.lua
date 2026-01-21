@@ -147,7 +147,7 @@ function cspzmq_proto.dissector(buffer, pinfo, tree)
   if crc_flag_field()() == 1 then
      payload = buffer:range(5, buffer:len()-9):tvb()
   else
-     payload = buffer:range(5, buffer:len()-4):tvb()
+     payload = buffer:range(5, buffer:len()-5):tvb()
   end
 
   local rdp
